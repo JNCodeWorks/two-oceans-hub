@@ -86,7 +86,7 @@ export default function RestaurantPage() {
         </div>
       </section>
 
-       <section className="py-24 bg-zinc-50">
+       <section className="py-24 bg-muted">
            <div className="container mx-auto px-4 text-center">
                <h2 className="text-3xl font-serif font-bold text-primary mb-6">The Pool Bar</h2>
                <p className="max-w-2xl mx-auto text-muted-foreground mb-8">

@@ -64,7 +64,7 @@ export default function AboutPage() {
       </section>
 
       {/* Location Highlights */}
-      <section className="py-24 bg-zinc-50">
+      <section className="py-24 bg-muted">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">Prime Location</h2>
@@ -74,7 +74,7 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-6 rounded-xl border shadow-sm text-center">
+            <div className="bg-card p-6 rounded-xl border shadow-sm text-center">
               <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <Mountain className="h-7 w-7 text-primary" />
               </div>
@@ -82,7 +82,7 @@ export default function AboutPage() {
               <p className="text-sm text-muted-foreground">30 minutes to the park gate. Perfect for early morning game drives.</p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border shadow-sm text-center">
+            <div className="bg-card p-6 rounded-xl border shadow-sm text-center">
               <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <TreePalm className="h-7 w-7 text-primary" />
               </div>
@@ -90,7 +90,7 @@ export default function AboutPage() {
               <p className="text-sm text-muted-foreground">Gateway to Mzima Springs and the iconic Shetani Lava Flows.</p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border shadow-sm text-center">
+            <div className="bg-card p-6 rounded-xl border shadow-sm text-center">
               <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <Compass className="h-7 w-7 text-primary" />
               </div>
@@ -98,7 +98,7 @@ export default function AboutPage() {
               <p className="text-sm text-muted-foreground">2 hours to the beautiful beaches of the Kenyan coast.</p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border shadow-sm text-center">
+            <div className="bg-card p-6 rounded-xl border shadow-sm text-center">
               <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <MapPin className="h-7 w-7 text-primary" />
               </div>

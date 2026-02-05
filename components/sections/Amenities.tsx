@@ -46,7 +46,7 @@ export function Amenities() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, idx) => (
-            <div key={idx} className="p-6 rounded-lg bg-zinc-50 border border-zinc-100 hover:border-primary/20 transition-colors">
+            <div key={idx} className="p-6 rounded-lg bg-muted border border-border hover:border-primary/20 transition-colors">
               <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-6 text-primary">
                 <feature.icon className="h-6 w-6" />
               </div>

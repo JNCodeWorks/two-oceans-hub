@@ -28,9 +28,9 @@ export default function ContactPage() {
 
   return (
     <>
-        <div className="bg-zinc-900 py-16 text-center text-white">
+        <div className="bg-primary py-16 text-center text-primary-foreground">
             <h1 className="text-4xl font-serif font-bold mb-4">Contact Us</h1>
-            <p className="text-lg text-zinc-300 max-w-2xl mx-auto px-4">
+            <p className="text-lg text-primary-foreground/70 max-w-2xl mx-auto px-4">
               We are here to help. Reach out to us for bookings, inquiries, or feedback.
             </p>
         </div>
@@ -95,7 +95,7 @@ export default function ContactPage() {
                     </div>
 
                     {/* Contact Form */}
-                    <div className="bg-zinc-50 p-8 rounded-2xl border">
+                    <div className="bg-muted p-8 rounded-2xl border">
                         <h2 className="text-2xl font-serif font-bold text-primary mb-6">Send Us a Message</h2>
                         
                         {isSubmitted ? (
