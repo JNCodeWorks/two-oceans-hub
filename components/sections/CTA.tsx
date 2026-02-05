@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 
 export function CTA() {
   return (
-    <section className="py-24 bg-zinc-50">
+    <section className="py-24 bg-muted">
       <div className="container mx-auto px-4">
-        <div className="bg-white rounded-3xl p-8 md:p-16 shadow-xl text-center border overflow-hidden relative">
+        <div className="bg-card rounded-3xl p-8 md:p-16 shadow-xl text-center border overflow-hidden relative">
            <div className="relative z-10 max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mb-6">
                 Ready to Book Your Stay?

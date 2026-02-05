@@ -5,7 +5,7 @@ import { ROOMS } from "@/lib/data";
 
 export function FeaturedRooms() {
   return (
-    <section className="py-24 bg-zinc-50">
+    <section className="py-24 bg-muted">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
             <div>

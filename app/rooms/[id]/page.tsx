@@ -49,11 +49,11 @@ export default async function RoomDetailPage({ params }: RoomDetailPageProps) {
 
   return (
     <>
-      <div className="bg-zinc-900 py-8">
+      <div className="bg-primary py-8">
         <div className="container mx-auto px-4">
           <Link 
             href="/rooms" 
-            className="inline-flex items-center gap-2 text-zinc-300 hover:text-white transition-colors"
+            className="inline-flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground transition-colors"
           >
             <ChevronLeft className="h-4 w-4" />
             Back to All Rooms
@@ -121,7 +121,7 @@ export default async function RoomDetailPage({ params }: RoomDetailPageProps) {
               </div>
 
               {/* Booking Form */}
-              <div className="bg-zinc-50 rounded-xl p-6 border">
+              <div className="bg-muted rounded-xl p-6 border">
                 <h2 className="font-bold text-lg mb-4">Reserve This Room</h2>
                 <form className="space-y-4">
                   <div className="grid grid-cols-2 gap-4">
@@ -167,7 +167,7 @@ export default async function RoomDetailPage({ params }: RoomDetailPageProps) {
       </section>
 
       {/* Related Rooms */}
-      <section className="py-16 bg-zinc-50">
+      <section className="py-16 bg-muted">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-serif font-bold text-primary mb-8">You May Also Like</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
